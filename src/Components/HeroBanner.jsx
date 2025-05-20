@@ -69,8 +69,8 @@ const image="https://www.jam-on.ch/tracklist/art-00.jpg"
             </div>
           </div>
           <div className="">
-            <div className=" relative lg:w-[300px] h-auto lg:mt-10 w-52 mt-5" data-aos="zoom-in">
-              <img src={image} alt="" className="w-full h-full object-cover rounded-2xl" />
+            <div className=" relative lg:w-[300px] h-auto lg:mt-10 w-52 mt-5 border border-white p-4 rounded-xl" data-aos="zoom-in">
+              <img src={image} alt="" className="w-full h-full object-cover rounded-xl shadow-2xl" />
               <div className={`${isPlaying ? "absolute" : "hidden"}  bottom-0 left-44 transform -translate-x-1/2 overflow-hidden w-full`}>
             <div className=" animate" id="animation">
               <span className="py-10 a1 animationPlay"></span>
