@@ -1,0 +1,80 @@
+
+@keyframes scrollHalfwayReset {
+      0% {
+        transform: translateX(100%); 
+      }
+     
+      100% {
+        transform: translateX(-100%); 
+      }
+    }
+    
+    .animate-scroll {
+      animation: scrollHalfwayReset 20s linear infinite;
+      will-change: transform;     }
+    
+
+      @media (max-width: 640px) {  
+            .animate-scroll {
+              animation: scrollHalfwayReset 10s linear infinite; 
+            }
+          }
+          
+          @media (max-width: 768px) {  
+            .animate-scroll {
+              animation: scrollHalfwayReset 15s linear infinite; 
+            }
+          }
+
+          .animate {
+         
+            height: 35px;
+            }
+        .animationPlay {
+            display: inline-block;
+            background-color:rgb(231, 235, 233);
+            width: 1px;
+            margin-right: 2px;
+            animation: wave 1s linear infinite;
+            }
+            .a1 {
+            animation-delay: .0s;
+            }
+            .a2 {
+            animation-delay: .1s;
+            }
+            .a3 {
+            animation-delay: .4s;
+            }
+            .a4 {
+            animation-delay: .6s;
+            }
+            .a5 {
+            animation-delay: .8s;
+            }
+              
+            
+            @keyframes wave {
+              50% {
+                transform: scaleY(0.1); 
+              }
+              100% {
+                transform: scaleY(1); 
+              }
+            
+            }
+
+            .front-bullets {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 0;
+  margin: 0 4px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.front-active-bullets {
+  background-color: #fff;
+  opacity: 1;
+}
