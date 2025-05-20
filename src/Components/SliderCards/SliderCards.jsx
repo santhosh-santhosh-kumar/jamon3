@@ -82,7 +82,7 @@ const SliderCards = () => {
      <p className="flex justify-center font-semibold text-2xl text-white">
           NEWS
         </p>
-    <div className="flex items-start   gap-40 w-full justify-between ">
+    <div className="flex items-start   gap-40 w-full justify-between mt-6">
       <div>
          <div className="w-52 h-80 mx-auto">
           <img src={adds01} className="w-full h-full object-cover" alt="" />
@@ -130,7 +130,9 @@ const SliderCards = () => {
               </div>
             </SwiperSlide>
           ))}
-          <div className="flex justify-center items-center gap-10 py-6">
+         
+         <div className="flex justify-center">
+           <div className="flex justify-center  items-center gap-10 py-6">
           <div className="cursor-pointer h-full    front-prev text-white text-3xl  p-4 rounded-full bg-[#262628]">
           <RiArrowLeftWideLine size={15}/>
         </div>
@@ -142,6 +144,7 @@ const SliderCards = () => {
           <RiArrowRightWideLine size={15}/>
         </div>
       </div>
+         </div>
         </Swiper>
       
       </section>
