@@ -40,7 +40,7 @@ function Header() {
       <div className="lg:px-40">
         <HeroBanner />
       </div>
-      <div className="lg:px-96">
+      <div className="">
         <SliderCards />
       </div>
 
